@@ -1,14 +1,14 @@
 {
   "jewelry": [
     {
-      "slug": "material-study-demo",
-      "title": "Material Study — Demo",
-      "materials": "Sample entry · not for sale",
+      "slug": "freshwater-pearl-necklace",
+      "title": "Freshwater Pearl Necklace",
+      "materials": "Freshwater pearls · metal accents",
       "dimensions": "",
-      "description": "Temporary layout example. This is not an actual Tanka Art jewelry piece. Replace this entry with photographs of the first finished piece.",
+      "description": "A delicate single-strand necklace of irregular freshwater pearls with contrasting metal accents. Handmade.",
       "images": [
-        "images/demo/stones.svg",
-        "images/demo/journal.svg"
+        "images/demo/IMG_9582.webp",
+        "images/demo/IMG_9583.webp"
       ],
       "etsyUrl": ""
     }
