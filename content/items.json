@@ -1,5 +1,54 @@
 {
-  "jewelry": [],
-  "artworks": [],
-  "journal": []
+  "jewelry": [
+    {
+      "slug": "material-study-demo",
+      "title": "Material Study — Demo",
+      "materials": "Sample entry · not for sale",
+      "dimensions": "",
+      "description": "Temporary layout example. This is not an actual Tanka Art jewelry piece. Replace this entry with photographs of the first finished piece.",
+      "images": [
+        "images/demo/stones.svg",
+        "images/demo/journal.svg"
+      ],
+      "etsyUrl": ""
+    }
+  ],
+  "artworks": [
+    {
+      "slug": "form-and-line-demo",
+      "title": "Form and Line — Demo",
+      "medium": "Digital placeholder illustration",
+      "dimensions": "",
+      "year": "2026",
+      "description": "Temporary image to test the artwork gallery layout. It will be replaced with original work.",
+      "images": [
+        "images/demo/paper.svg"
+      ]
+    }
+  ],
+  "journal": [
+    {
+      "slug": "notes-on-materials-demo",
+      "title": "Notes on Materials — Demo",
+      "date": "2026-10-22",
+      "cover": "images/demo/journal.svg",
+      "description": "A short sample entry about materials and making.",
+      "paragraphs": [
+        "Every material has a character of its own. Some invite us to look closely at the surface, while others draw attention to their weight, transparency or the way they catch the light.",
+        "In jewelry, a small difference in texture or proportion can change the feeling of an entire piece. A smooth stone, a slender silver link and the space between them each contribute to the composition.",
+        "This is temporary sample text, written only to test the typography and layout of the Tanka Art journal. Future entries may explore gemstones, historical jewelry, techniques, exhibitions and the process of making."
+      ]
+    },
+    {
+      "slug": "looking-at-art-demo",
+      "title": "Looking at Art — Demo",
+      "date": "2026-10-21",
+      "cover": "images/demo/paper.svg",
+      "description": "An example of a second journal entry.",
+      "paragraphs": [
+        "A gallery can be a place to gather observations as well as finished work. A detail in a painting, a line in a drawing or an unexpected combination of colors can become the starting point for a new idea.",
+        "This sample article shows how multiple entries appear in the Journal index. The text and illustration are placeholders."
+      ]
+    }
+  ]
 }
