@@ -1,14 +1,74 @@
 {
   "jewelry": [
     {
-      "slug": "freshwater-pearl-necklace",
-      "title": "Freshwater Pearl Necklace",
+      "slug": "freshwater-pearl-necklace-1",
+      "title": "Freshwater Pearl Necklace 01",
       "materials": "Freshwater pearls · metal accents",
       "dimensions": "",
-      "description": "A delicate single-strand necklace of irregular freshwater pearls with contrasting metal accents. Handmade.",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
       "images": [
         "images/demo/IMG_9582.webp",
         "images/demo/IMG_9583.webp"
+      ],
+      "etsyUrl": ""
+    },
+    {
+      "slug": "freshwater-pearl-necklace-2",
+      "title": "Freshwater Pearl Necklace 02",
+      "materials": "Freshwater pearls · metal accents",
+      "dimensions": "",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
+      "images": [
+        "images/demo/IMG_9583.webp",
+        "images/demo/IMG_9582.webp"
+      ],
+      "etsyUrl": ""
+    },
+    {
+      "slug": "freshwater-pearl-necklace-3",
+      "title": "Freshwater Pearl Necklace 03",
+      "materials": "Freshwater pearls · metal accents",
+      "dimensions": "",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
+      "images": [
+        "images/demo/IMG_9582.webp",
+        "images/demo/IMG_9583.webp"
+      ],
+      "etsyUrl": ""
+    },
+    {
+      "slug": "freshwater-pearl-necklace-4",
+      "title": "Freshwater Pearl Necklace 04",
+      "materials": "Freshwater pearls · metal accents",
+      "dimensions": "",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
+      "images": [
+        "images/demo/IMG_9583.webp",
+        "images/demo/IMG_9582.webp"
+      ],
+      "etsyUrl": ""
+    },
+    {
+      "slug": "freshwater-pearl-necklace-5",
+      "title": "Freshwater Pearl Necklace 05",
+      "materials": "Freshwater pearls · metal accents",
+      "dimensions": "",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
+      "images": [
+        "images/demo/IMG_9582.webp",
+        "images/demo/IMG_9583.webp"
+      ],
+      "etsyUrl": ""
+    },
+    {
+      "slug": "freshwater-pearl-necklace-6",
+      "title": "Freshwater Pearl Necklace 06",
+      "materials": "Freshwater pearls · metal accents",
+      "dimensions": "",
+      "description": "Temporary gallery layout preview — repeated photographs of the same necklace.",
+      "images": [
+        "images/demo/IMG_9583.webp",
+        "images/demo/IMG_9582.webp"
       ],
       "etsyUrl": ""
     }
