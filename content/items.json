@@ -10,7 +10,10 @@
         "images/demo/IMG_9582.webp",
         "images/demo/IMG_9583.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 01",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     },
     {
       "slug": "freshwater-pearl-necklace-2",
@@ -22,7 +25,10 @@
         "images/demo/IMG_9583.webp",
         "images/demo/IMG_9582.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 02",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     },
     {
       "slug": "freshwater-pearl-necklace-3",
@@ -34,7 +40,10 @@
         "images/demo/IMG_9582.webp",
         "images/demo/IMG_9583.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 03",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     },
     {
       "slug": "freshwater-pearl-necklace-4",
@@ -46,7 +55,10 @@
         "images/demo/IMG_9583.webp",
         "images/demo/IMG_9582.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 04",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     },
     {
       "slug": "freshwater-pearl-necklace-5",
@@ -58,7 +70,10 @@
         "images/demo/IMG_9582.webp",
         "images/demo/IMG_9583.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 05",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     },
     {
       "slug": "freshwater-pearl-necklace-6",
@@ -70,7 +85,10 @@
         "images/demo/IMG_9583.webp",
         "images/demo/IMG_9582.webp"
       ],
-      "etsyUrl": ""
+      "etsyUrl": "",
+      "titleHe": "שרשרת פנינים טבעיות 06",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
     }
   ],
   "artworks": [
@@ -83,7 +101,10 @@
       "description": "Temporary image to test the artwork gallery layout. It will be replaced with original work.",
       "images": [
         "images/demo/paper.svg"
-      ]
+      ],
+      "titleHe": "צורה וקו — הדגמה",
+      "mediumHe": "איור דיגיטלי להמחשה",
+      "descriptionHe": "תמונה זמנית לבדיקת עיצוב גלריית האמנות. בהמשך תוחלף ביצירה מקורית."
     }
   ],
   "journal": [
@@ -97,6 +118,13 @@
         "Every material has a character of its own. Some invite us to look closely at the surface, while others draw attention to their weight, transparency or the way they catch the light.",
         "In jewelry, a small difference in texture or proportion can change the feeling of an entire piece. A smooth stone, a slender silver link and the space between them each contribute to the composition.",
         "This is temporary sample text, written only to test the typography and layout of the Tanka Art journal. Future entries may explore gemstones, historical jewelry, techniques, exhibitions and the process of making."
+      ],
+      "titleHe": "רשימות על חומרים — הדגמה",
+      "descriptionHe": "רשימה לדוגמה על חומרים ותהליכי יצירה.",
+      "paragraphsHe": [
+        "לכל חומר יש אופי משלו. חלקם מזמינים התבוננות מקרוב בפני השטח, ואחרים מושכים את תשומת הלב למשקל, לשקיפות או לאופן שבו הם קולטים את האור.",
+        "בתכשיטים, הבדל קטן במרקם או בפרופורציה יכול לשנות את התחושה של היצירה כולה. אבן חלקה, חוליית כסף עדינה והמרווחים ביניהן הם חלק מהקומפוזיציה.",
+        "זהו טקסט זמני שנועד לבדוק את העיצוב והטיפוגרפיה של היומן."
       ]
     },
     {
@@ -108,6 +136,12 @@
       "paragraphs": [
         "A gallery can be a place to gather observations as well as finished work. A detail in a painting, a line in a drawing or an unexpected combination of colors can become the starting point for a new idea.",
         "This sample article shows how multiple entries appear in the Journal index. The text and illustration are placeholders."
+      ],
+      "titleHe": "להתבונן באמנות — הדגמה",
+      "descriptionHe": "דוגמה לרשומה נוספת ביומן.",
+      "paragraphsHe": [
+        "גלריה יכולה להיות מקום לאסוף מחשבות והתבוננויות לצד יצירות גמורות. פרט בציור, קו ברישום או שילוב צבעים מפתיע עשויים להיות התחלה של רעיון חדש.",
+        "רשומה זו היא דוגמה זמנית לאופן שבו מוצגים כמה מאמרים ביומן."
       ]
     }
   ]
