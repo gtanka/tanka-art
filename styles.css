@@ -16,3 +16,9 @@
 .jewelry-gallery-heading{background-image:url("./images/IMG_7641.jpeg");background-size:100% 100%;background-position:center;min-height:280px;padding:35px clamp(20px,4vw,55px);margin-bottom:42px;display:flex;flex-direction:column;justify-content:center}
 .jewelry-gallery-heading .intro{margin-bottom:0}
 @media(max-width:520px){.jewelry-gallery-heading{min-height:210px;padding:24px}}
+
+/* Improve contrast of copy on jewelry banner */
+.jewelry-gallery-heading .eyebrow,.jewelry-gallery-heading h1,.jewelry-gallery-heading .intro{color:#111;text-shadow:0 1px 2px rgba(255,255,255,.75)}
+/* Remove grey letterboxing from jewelry collection thumbnails */
+.card-image{background:transparent;display:block;aspect-ratio:auto;overflow:hidden}
+.card-image img{width:100%;height:auto;object-fit:contain}
