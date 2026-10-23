@@ -21,9 +21,12 @@ for folder, category in (("jewelry", "jewelry"), ("paintings", "artworks")):
                 continue
             meta_path = item_dir / "info.json"
             meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+            cover = meta.get("coverImage")
+            if cover:
+                photos.sort(key=lambda p: (p.name != cover, p.name.lower()))
             entry = {"slug": item_dir.name, "title": item_dir.name.replace("-", " ").title(),
                      "images": [p.relative_to(root).as_posix() for p in photos]}
-            entry.update({k: v for k, v in meta.items() if k not in ("slug", "images")})
+            entry.update({k: v for k, v in meta.items() if k not in ("slug", "images", "coverImage")})
             entries.append(entry)
     # The folder structure is the sole source of truth for these collections.
     # Removing a folder removes its gallery card; demo entries never persist.
