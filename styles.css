@@ -42,3 +42,6 @@
 
 /* Match Artworks image banner to Jewelry */
 .artworks-feature,.artworks-feature span{color:#fff;text-shadow:none}
+
+/* Contact form */
+.contact-layout{display:grid;grid-template-columns:minmax(220px,1fr) minmax(300px,1.5fr);gap:clamp(30px,6vw,90px);align-items:start}.contact-form{display:grid;gap:22px;max-width:760px}.contact-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-form label{display:grid;gap:8px;font-size:14px}.contact-form input,.contact-form textarea{width:100%;min-width:0;border:1px solid #bbb;background:#fff;color:#202020;padding:12px 14px;font:inherit;font-size:16px;border-radius:0}.contact-form textarea{resize:vertical}.contact-form input:focus-visible,.contact-form textarea:focus-visible{outline:2px solid #555;outline-offset:2px}.contact-form button{justify-self:start;background:#252525;color:white;border:1px solid #252525;padding:13px 28px;font-size:13px;letter-spacing:.07em}.contact-form button:disabled{opacity:.55;cursor:wait}.form-status{margin:0;min-height:1.4em;font-size:14px;color:#276337}.form-status.error{color:#9a2929}@media(max-width:750px){.contact-layout{grid-template-columns:1fr}.contact-fields{grid-template-columns:1fr}}
