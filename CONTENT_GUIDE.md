@@ -54,3 +54,32 @@ Cloudflare Pages: connect this GitHub repository, use production branch `main`, 
 - Hash-based URLs (`#/jewelry/item-slug`) keep navigation compatible with basic static hosting.
 - The artist can ask a coding assistant to add content by editing JSON and uploading images; no HTML pages are needed.
 - This initial version has not yet been browser-tested in production.
+
+
+## Folder-based photo library (automatic)
+
+Every individual piece gets its own permanent folder. The folder name is its unique ID.
+
+```text
+images/
+├── jewelry/
+│   ├── pearl-necklace-001/
+│   │   ├── 01-main.jpg
+│   │   ├── 02-detail.jpg
+│   │   ├── 03-model.jpg
+│   │   └── info.json
+│   └── bracelet-002/
+│       ├── 01-main.jpg
+│       └── 02-detail.jpg
+└── paintings/
+    └── painting-001/
+        ├── 01-main.jpg
+        └── 02-detail.jpg
+```
+
+- Upload photos into the matching item's folder on GitHub. Keep the original proportions and colors; square photos are recommended, not required.
+- `01-main.jpg` is the gallery cover. Add as many numbered photos as desired.
+- Optional `info.json` contains the title, materials/medium, dimensions, description, Etsy URL and Hebrew translations (`titleHe`, `materialsHe`, `descriptionHe`).
+- The GitHub Actions workflow `.github/workflows/sync-gallery.yml` runs `scripts/sync_gallery.py` after photo uploads, updating `content/items.json` automatically. GitHub Actions must be enabled with permission to write repository contents.
+- The site itself still reads `content/items.json`; a bare folder does not show in the gallery until at least one photo is present and the sync succeeds.
+- Existing demo entries are preserved for now; remove them separately when ready to publish real pieces.
