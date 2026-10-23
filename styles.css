@@ -33,3 +33,6 @@
 .jewelry-feature .jewelry-feature-image{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:-1}
 .jewelry-feature span{display:block;margin-top:20px}
 @media(max-width:520px){.jewelry-feature{height:230px;padding:60px 25px}}
+
+/* White lettering on the image-backed Jewelry home tile */
+.jewelry-feature,.jewelry-feature span{color:#fff;text-shadow:none}
