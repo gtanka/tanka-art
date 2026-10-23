@@ -25,8 +25,8 @@ for folder, category in (("jewelry", "jewelry"), ("paintings", "artworks")):
                      "images": [p.relative_to(root).as_posix() for p in photos]}
             entry.update({k: v for k, v in meta.items() if k not in ("slug", "images")})
             entries.append(entry)
-    # Keep existing manually maintained entries; update automatically managed folder entries.
-    managed = {e["slug"] for e in entries}
-    data[category] = [e for e in data.get(category, []) if e.get("slug") not in managed] + entries
+    # The folder structure is the sole source of truth for these collections.
+    # Removing a folder removes its gallery card; demo entries never persist.
+    data[category] = entries
 
 catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
