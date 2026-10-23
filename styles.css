@@ -39,3 +39,6 @@
 
 /* White lettering on Jewelry collection banner */
 .jewelry-gallery-heading .eyebrow,.jewelry-gallery-heading h1,.jewelry-gallery-heading .intro{color:#fff;text-shadow:none}
+
+/* Match Artworks image banner to Jewelry */
+.artworks-feature,.artworks-feature span{color:#fff;text-shadow:none}
