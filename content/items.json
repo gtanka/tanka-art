@@ -89,6 +89,25 @@
       "titleHe": "שרשרת פנינים טבעיות 06",
       "materialsHe": "פניני מים מתוקים · פרטי מתכת",
       "descriptionHe": "תצוגה זמנית של הגלריה — אותן תמונות של השרשרת מוצגות מספר פעמים."
+    },
+    {
+      "slug": "pearl-necklace-001",
+      "title": "Freshwater Pearl Necklace",
+      "images": [
+        "images/jewelry/pearl-necklace-001/B4F4EB64-FBCD-4E27-8FFD-1C4D7D0EDAD1.jpeg",
+        "images/jewelry/pearl-necklace-001/IMG_9577.jpeg",
+        "images/jewelry/pearl-necklace-001/IMG_9578.jpeg",
+        "images/jewelry/pearl-necklace-001/IMG_9581.jpeg",
+        "images/jewelry/pearl-necklace-001/IMG_9592.jpeg",
+        "images/jewelry/pearl-necklace-001/IMG_9594.jpeg"
+      ],
+      "titleHe": "שרשרת פנינים",
+      "materials": "Freshwater pearls · metal accents",
+      "materialsHe": "פניני מים מתוקים · פרטי מתכת",
+      "dimensions": "",
+      "description": "",
+      "descriptionHe": "",
+      "etsyUrl": ""
     }
   ],
   "artworks": [
