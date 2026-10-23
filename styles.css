@@ -9,3 +9,10 @@
 
 /* Banner fills its designated design areas, stretching as requested */
 .jewelry-feature{height:300px;position:relative;overflow:hidden;justify-content:flex-start;isolation:isolate}.jewelry-feature-image{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:-1}.jewelry-feature span{margin-top:auto}.jewelry-banner{width:100%;height:260px;max-height:none;object-fit:fill;object-position:center}@media(max-width:520px){.jewelry-feature{height:230px}.jewelry-banner{height:180px}}
+
+/* Soft, consistent typography; Arial fallback if web font unavailable */
+:root{font-family:"Nunito Sans",Arial,Helvetica,sans-serif}
+/* Jewelry artwork is the background of the collection heading */
+.jewelry-gallery-heading{background-image:url("./images/IMG_7641.jpeg");background-size:100% 100%;background-position:center;min-height:280px;padding:35px clamp(20px,4vw,55px);margin-bottom:42px;display:flex;flex-direction:column;justify-content:center}
+.jewelry-gallery-heading .intro{margin-bottom:0}
+@media(max-width:520px){.jewelry-gallery-heading{min-height:210px;padding:24px}}
