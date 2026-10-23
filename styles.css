@@ -13,7 +13,7 @@
 /* Soft, consistent typography; Arial fallback if web font unavailable */
 :root{font-family:"Nunito Sans",Arial,Helvetica,sans-serif}
 /* Jewelry artwork is the background of the collection heading */
-.jewelry-gallery-heading{background-image:url("./images/IMG_7641.jpeg");background-size:100% 100%;background-position:center;min-height:280px;padding:35px clamp(20px,4vw,55px);margin-bottom:42px;display:flex;flex-direction:column;justify-content:center}
+.jewelry-gallery-heading{background-image:url("./images/IMG_8871.jpeg");background-size:100% 100%;background-position:center;min-height:280px;padding:35px clamp(20px,4vw,55px);margin-bottom:42px;display:flex;flex-direction:column;justify-content:center}
 .jewelry-gallery-heading .intro{margin-bottom:0}
 @media(max-width:520px){.jewelry-gallery-heading{min-height:210px;padding:24px}}
 
