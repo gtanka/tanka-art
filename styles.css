@@ -36,3 +36,6 @@
 
 /* White lettering on the image-backed Jewelry home tile */
 .jewelry-feature,.jewelry-feature span{color:#fff;text-shadow:none}
+
+/* White lettering on Jewelry collection banner */
+.jewelry-gallery-heading .eyebrow,.jewelry-gallery-heading h1,.jewelry-gallery-heading .intro{color:#fff;text-shadow:none}
