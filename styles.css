@@ -22,3 +22,8 @@
 /* Remove grey letterboxing from jewelry collection thumbnails */
 .card-image{background:transparent;display:block;aspect-ratio:auto;overflow:hidden}
 .card-image img{width:100%;height:auto;object-fit:contain}
+
+/* Jewelry banner: solid black text, no shadow; clearer small caption */
+.jewelry-gallery-heading .eyebrow,.jewelry-gallery-heading h1,.jewelry-gallery-heading .intro{color:#000;text-shadow:none}
+.jewelry-gallery-heading .eyebrow{font-size:14px;font-weight:700;letter-spacing:.12em}
+.jewelry-gallery-heading .intro{font-weight:600}
