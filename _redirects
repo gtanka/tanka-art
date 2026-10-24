@@ -1,3 +1,2 @@
-/artworks/* /artworks/index.html 200
-/jewelry/* /jewelry/index.html 200
-/journal/* /journal/index.html 200
+# Individual pages are published as real HTML files.
+# Do not rewrite their URLs to category indexes.
