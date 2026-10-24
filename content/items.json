@@ -21,5 +21,10 @@
     }
   ],
   "artworks": [],
-  "journal": []
+  "journal": [],
+  "digitalProject": {
+    "description": "A collection of digital artworks created on an iPad using SketchBook. The original high-resolution files are intended for fine-art printing. Print sizes and availability will be confirmed individually.",
+    "descriptionHe": "אוסף יצירות אמנות דיגיטליות שנוצרו באייפד באמצעות SketchBook. קובצי המקור ברזולוציה גבוהה ומיועדים להדפסה אמנותית. גדלים ואפשרויות הדפסה ייקבעו בהמשך.",
+    "works": []
+  }
 }
