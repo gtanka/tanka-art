@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tankaart.com/</loc></url>
-  <url><loc>https://tankaart.com/artworks</loc></url>
-  <url><loc>https://tankaart.com/jewelry</loc></url>
-  <url><loc>https://tankaart.com/journal</loc></url>
-  <url><loc>https://tankaart.com/about</loc></url>
-  <url><loc>https://tankaart.com/contact</loc></url>
-  <url><loc>https://tankaart.com/jewelry/pearl-necklace-001</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://tankaart.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/"/></url>
+  <url><loc>https://tankaart.com/he/</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/"/></url>
+  <url><loc>https://tankaart.com/artworks</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/artworks"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/artworks"/></url>
+  <url><loc>https://tankaart.com/he/artworks</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/artworks"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/artworks"/></url>
+  <url><loc>https://tankaart.com/jewelry</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/jewelry"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/jewelry"/></url>
+  <url><loc>https://tankaart.com/he/jewelry</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/jewelry"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/jewelry"/></url>
+  <url><loc>https://tankaart.com/journal</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/journal"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/journal"/></url>
+  <url><loc>https://tankaart.com/he/journal</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/journal"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/journal"/></url>
+  <url><loc>https://tankaart.com/about</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/about"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/about"/></url>
+  <url><loc>https://tankaart.com/he/about</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/about"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/about"/></url>
+  <url><loc>https://tankaart.com/contact</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/contact"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/contact"/></url>
+  <url><loc>https://tankaart.com/he/contact</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/contact"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/contact"/></url>
+  <url><loc>https://tankaart.com/jewelry/pearl-necklace-001</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/jewelry/pearl-necklace-001"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/jewelry/pearl-necklace-001"/></url>
+  <url><loc>https://tankaart.com/he/jewelry/pearl-necklace-001</loc><xhtml:link rel="alternate" hreflang="en" href="https://tankaart.com/jewelry/pearl-necklace-001"/><xhtml:link rel="alternate" hreflang="he" href="https://tankaart.com/he/jewelry/pearl-necklace-001"/></url>
 </urlset>
