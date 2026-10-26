@@ -51,3 +51,6 @@ html[dir="rtl"] .brand{direction:rtl}
 
 /* Artworks categories: stacked vertically, not side by side */
 .artwork-categories{display:flex;flex-direction:column;gap:64px}.artwork-category{display:block;border-bottom:1px solid #dedede;padding-bottom:42px}.artwork-category h2{font-size:clamp(25px,3vw,38px);font-weight:500;margin:0 0 22px}.artwork-category h2 a{text-decoration:none;color:inherit}.artwork-category p{max-width:700px;line-height:1.8}.artwork-category-link{display:inline-block;margin-top:14px;text-underline-offset:5px}.digital-project-item{margin:0}.digital-project-item img{max-width:100%;height:auto}.digital-project-item figcaption{padding:12px 0;font-size:15px}
+
+/* Detail layout: title, photos, then description */
+.detail-title{margin:22px 0 30px}.detail.detail-stacked{display:block}.detail-stacked .detail-gallery{margin-bottom:38px}.detail-stacked .detail-copy{position:static;max-width:760px}@media(max-width:700px){.detail-stacked .detail-gallery{grid-template-columns:1fr;gap:18px}.detail-title{margin:20px 0 28px}}
