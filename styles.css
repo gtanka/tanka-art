@@ -73,3 +73,6 @@ html[dir="rtl"] .brand{direction:rtl}
 
 /* Responsive official Instagram embed in journal */
 .journal-instagram{display:block;width:100%;max-width:540px;height:760px;border:0;background:#fafafa}@media(max-width:520px){.journal-instagram{height:690px}}
+
+/* Journal Instagram card thumbnail */
+.journal-card-embed{width:100%;aspect-ratio:4/5;overflow:hidden;position:relative;background:#fafafa}.journal-card-embed iframe{display:block;position:absolute;top:-2px;left:50%;transform:translateX(-50%);width:540px;height:760px;max-width:none;border:0;pointer-events:none}.card:has(.journal-card-embed) .card-image{width:100%;aspect-ratio:4/5;overflow:hidden}
