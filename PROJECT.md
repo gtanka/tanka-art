@@ -5,7 +5,7 @@ Updated 2026-10-28. Site is fully static HTML, deployed from GitHub main to Clou
 ## Architecture (IMPORTANT)
 - Each public page has a real index.html file with complete visible content; no JavaScript rendering, routing, translation or data fetching.
 - English pages are under /, Hebrew pages under /he/. Every page has its own complete translated header, native navigation links and language links.
-- styles.css contains global styling. static.js is ONLY for mobile menu toggling and enlarging jewelry photos in the lightbox.
+- styles.css contains global styling, responsive CSS Grid layouts and media queries. Grid resizing on desktop/tablet/mobile and on orientation changes is CSS-only, never JavaScript. static.js currently handles mobile menu toggling and enlarging jewelry photos in the lightbox. Desired next simplification: replace mobile menu toggle with native HTML <details>/<summary>, then keep JavaScript ONLY for image enlargement. Do not claim this last simplification has been implemented until it has been committed and tested.
 - Do NOT use app.js, client-side rendering, JSON fetches, or localStorage language selection. Old content/*.json are legacy reference data, NOT live site content.
 - New items must be added as English and Hebrew HTML detail pages, linked in both gallery HTML files and sitemap.xml. Update canonical and hreflang as appropriate.
 - Existing URL routes must stay stable. Keep RTL Hebrew, original image proportions, and original design.
