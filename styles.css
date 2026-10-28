@@ -102,3 +102,13 @@ html[dir="rtl"] .brand{direction:rtl}
 .journal-article .journal-photo-source a{color:#666;text-decoration:none}
 .journal-article .journal-photo-source a:hover{text-decoration:underline}
 @media(max-width:650px){.journal-article .prose{font-size:21px!important}.journal-article .journal-links a{font-size:16px!important}}
+
+/* RTL Safari iPad rotation: prevent horizontal document overflow */
+html[dir="rtl"],html[dir="rtl"] body{width:100%;max-width:100%;overflow-x:clip}
+html[dir="rtl"] #main{min-width:0;width:100%;max-width:100%;overflow-x:clip}
+html[dir="rtl"] .journal-article{box-sizing:border-box;width:100%;max-width:1250px;min-width:0;margin-inline:auto;padding-inline:clamp(22px,5vw,76px);overflow-wrap:anywhere}
+html[dir="rtl"] .journal-article>.prose{box-sizing:border-box;width:100%;max-width:960px!important;min-width:0;margin-inline:auto!important;overflow-wrap:anywhere;word-break:normal}
+html[dir="rtl"] .journal-article .journal-figure,html[dir="rtl"] .journal-article .journal-links{min-width:0;max-width:100%}
+html[dir="rtl"] .journal-article .journal-figure img{display:block;max-width:100%;height:auto}
+html[dir="rtl"] .journal-article .journal-links a{max-width:100%;overflow-wrap:anywhere}
+@media(orientation:landscape) and (max-width:1400px){html[dir="rtl"] .journal-article{padding-inline:clamp(24px,5vw,64px)}html[dir="rtl"] .journal-article>.prose{max-width:960px!important}}
