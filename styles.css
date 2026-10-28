@@ -112,3 +112,9 @@ html[dir="rtl"] .journal-article .journal-figure,html[dir="rtl"] .journal-articl
 html[dir="rtl"] .journal-article .journal-figure img{display:block;max-width:100%;height:auto}
 html[dir="rtl"] .journal-article .journal-links a{max-width:100%;overflow-wrap:anywhere}
 @media(orientation:landscape) and (max-width:1400px){html[dir="rtl"] .journal-article{padding-inline:clamp(24px,5vw,64px)}html[dir="rtl"] .journal-article>.prose{max-width:960px!important}}
+
+/* Article RTL: fixed reading column regardless of device orientation */
+html[dir="rtl"] .journal-article{display:block;min-width:0;max-width:1250px;margin-left:auto;margin-right:auto;direction:rtl;text-align:right}
+html[dir="rtl"] .journal-article .prose{display:block;width:100%;max-width:960px!important;min-width:0;margin-left:auto!important;margin-right:auto!important;direction:rtl;text-align:right}
+html[dir="rtl"] .journal-article .prose p{max-width:100%;overflow-wrap:break-word}
+html[dir="rtl"] .journal-article .journal-figure{width:100%;max-width:100%;margin-inline:auto}
