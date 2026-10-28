@@ -21,7 +21,56 @@
     }
   ],
   "artworks": [],
-  "journal": [],
+  "journal": [
+    {
+      "slug": "discovering-alicja-kwade",
+      "title": "Discovering Alicja Kwade",
+      "titleHe": "לגלות את אליציה קוואדה",
+      "date": "28 October 2026",
+      "category": "Inspirations",
+      "categoryHe": "השראה",
+      "cover": "https://files.ocula.com/ri/48/488ce161-065d-4359-8ba7-fc9dce6e0bb7/800/533/public-art-is-made-for-people-alicja-kwade-on-protests-and-art-basel-paris-closure.jpg",
+      "caption": "Alicja Kwade, L’Élévation des Mondes (2026), outside the Grand Palais. Courtesy Art Basel / Ocula.",
+      "captionHe": "אליציה קוואדה, L’Élévation des Mondes ‏(2026), מחוץ לגראן פאלה. באדיבות Art Basel / Ocula.",
+      "paragraphs": [
+        "A few days ago, while browsing Ocula, I came across a photograph of an extraordinary sculpture. Ten polished stone spheres, stacked one above another, forming a seemingly unstable tower, 4.4 metres high.",
+        "The sculpture, L’Élévation des Mondes (2026), was installed outside the Grand Palais during Art Basel Paris. It immediately caught my attention, and I became curious about the artist behind it.",
+        "Alicja Kwade is a Polish-German contemporary artist, born in 1979 and based in Berlin. Her work includes sculpture, installation, photography and film.",
+        "As I began exploring her work, I discovered how much our interests have in common. Time, space, gravity, repetition, the nature of reality and the way we perceive it — these are questions that fascinate me as well.",
+        "But something else caught my attention. In an interview with Ocula, Kwade spoke about the decision to remove her sculpture early because of anticipated protests in Paris.",
+        "She believes that public art should be part of everyday life, accessible to people and open to interaction and dialogue. Even the possibility of damage is part of its existence in the real world.",
+        "I find this attitude particularly meaningful. Art does not have to exist separately from life, protected from everything happening around it.",
+        "Discovering Alicja Kwade was a lovely reminder of how exciting it is to encounter an artist whose questions feel so close to your own."
+      ],
+      "paragraphsHe": [
+        "לפני כמה ימים, בזמן שגלשתי באתר Ocula, נתקלתי בתצלום של פסל יוצא דופן. עשרה כדורי אבן מלוטשים, מונחים זה על גבי זה ויוצרים מגדל בגובה 4.4 מטרים, שנראה כאילו הוא עומד לאבד את שיווי המשקל שלו בכל רגע.",
+        "הפסל, L’Élévation des Mondes ‏(2026), הוצב מחוץ לגראן פאלה במסגרת Art Basel Paris. הוא מיד משך את תשומת לבי, ורציתי לדעת עוד על האמנית שיצרה אותו.",
+        "אליציה קוואדה היא אמנית עכשווית פולנייה־גרמנייה, ילידת 1979, שחיה ופועלת בברלין. עבודתה כוללת פיסול, מיצבים, צילום וקולנוע.",
+        "כשהתחלתי להכיר את עבודותיה, גיליתי עד כמה תחומי העניין שלנו קרובים. זמן, מרחב, כוח הכבידה, חזרתיות, טבעה של המציאות והאופן שבו אנחנו תופסים אותה — כל אלה שאלות שמעסיקות ומסקרנות גם אותי.",
+        "אבל היה עוד משהו שמשך את תשומת לבי. בריאיון ל־Ocula סיפרה קוואדה על ההחלטה להסיר את הפסל מוקדם מהמתוכנן בעקבות ההפגנות הצפויות בפריז.",
+        "לדעתה, אמנות במרחב הציבורי צריכה להיות חלק מחיי היומיום, נגישה לאנשים ופתוחה למפגש ולדיאלוג. אפילו האפשרות שהיצירה תיפגע היא חלק מהקיום שלה בעולם האמיתי.",
+        "הגישה הזאת משמעותית בעיניי במיוחד. אמנות לא חייבת להתקיים בנפרד מהחיים, מוגנת מכל מה שמתרחש סביבה.",
+        "ההיכרות עם אליציה קוואדה הזכירה לי כמה מרגש לגלות אמנית שהשאלות שמעסיקות אותה קרובות כל כך לשאלות שלי."
+      ],
+      "links": [
+        {
+          "label": "Ocula — original article",
+          "labelHe": "Ocula — הכתבה המקורית",
+          "url": "https://ocula.com/magazine/art-news/alicja-kwade-protests-art-basel-paris/"
+        },
+        {
+          "label": "Alicja Kwade — official website",
+          "labelHe": "אליציה קוואדה — האתר הרשמי",
+          "url": "https://www.alicjakwade.com/"
+        },
+        {
+          "label": "Alicja Kwade — Instagram post",
+          "labelHe": "אליציה קוואדה — פוסט באינסטגרם",
+          "url": "https://www.instagram.com/p/DQH5s8WjBvA/"
+        }
+      ]
+    }
+  ],
   "digitalProject": {
     "description": "A collection of digital artworks created on an iPad using SketchBook. The original high-resolution files are intended for fine-art printing. Print sizes and availability will be confirmed individually.",
     "descriptionHe": "אוסף יצירות אמנות דיגיטליות שנוצרו באייפד באמצעות SketchBook. קובצי המקור ברזולוציה גבוהה ומיועדים להדפסה אמנותית. גדלים ואפשרויות הדפסה ייקבעו בהמשך.",
