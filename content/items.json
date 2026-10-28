@@ -29,7 +29,7 @@
       "date": "28 October 2026",
       "category": "Inspirations",
       "categoryHe": "השראה",
-      "cover": "",
+      "cover": "/images/IMG_2422.jpeg",
       "caption": "Alicja Kwade, L’Élévation des Mondes (2026). Image from the artist’s Instagram.",
       "captionHe": "אליציה קוואדה, L’Élévation des Mondes ‏(2026). תמונה מתוך האינסטגרם של האמנית.",
       "paragraphs": [
@@ -68,8 +68,7 @@
           "labelHe": "אליציה קוואדה — אינסטגרם",
           "url": "https://www.instagram.com/p/DewR1L9DWGC/"
         }
-      ],
-      "instagramEmbed": "https://www.instagram.com/p/DewR1L9DWGC/embed/captioned/"
+      ]
     }
   ],
   "digitalProject": {
