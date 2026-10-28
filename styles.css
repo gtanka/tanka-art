@@ -76,3 +76,18 @@ html[dir="rtl"] .brand{direction:rtl}
 
 /* Journal Instagram card thumbnail */
 .journal-card-embed{width:100%;aspect-ratio:4/5;overflow:hidden;position:relative;background:#fafafa}.journal-card-embed iframe{display:block;position:absolute;top:-2px;left:50%;transform:translateX(-50%);width:540px;height:760px;max-width:none;border:0;pointer-events:none}.card:has(.journal-card-embed) .card-image{width:100%;aspect-ratio:4/5;overflow:hidden}
+
+/* Journal reading layout: centered, generous width and readable type */
+.journal-article{width:100%;max-width:1250px;margin-inline:auto;padding-inline:clamp(22px,5vw,76px)}
+.journal-article>.eyebrow,.journal-article>h1,.journal-article>.prose{max-width:100%;width:100%}
+.journal-article>.prose{font-size:clamp(18px,1.45vw,22px);line-height:1.75;color:#333}
+.journal-article>.prose>p{max-width:100%;margin:0 0 1.35em}
+.journal-article h1{font-size:clamp(38px,4.7vw,66px);line-height:1.14;margin-bottom:34px}
+.journal-article .journal-figure{margin:0 0 42px}
+.journal-article .journal-instagram{width:100%;max-width:540px;margin-inline:auto}
+.journal-article .journal-figure figcaption{font-size:13px;text-align:center;margin-top:12px}
+.journal-article .journal-links{display:flex;flex-direction:column;align-items:flex-start;gap:14px;width:100%;max-width:none;margin-top:38px}
+.journal-article .journal-links a,.journal-article .journal-links a:last-child{display:block;width:auto;padding:0;border:0;text-decoration:none;font-size:18px;line-height:1.5;color:#333}
+.journal-article .journal-links a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(min-width:1000px){.journal-article>.prose{max-width:960px;margin-inline:auto}}
+@media(max-width:600px){.journal-article>.prose{font-size:18px;line-height:1.7}.journal-article .journal-links a{font-size:16px}}
