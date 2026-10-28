@@ -29,9 +29,9 @@
       "date": "28 October 2026",
       "category": "Inspirations",
       "categoryHe": "השראה",
-      "cover": "https://files.ocula.com/ri/48/488ce161-065d-4359-8ba7-fc9dce6e0bb7/800/533/public-art-is-made-for-people-alicja-kwade-on-protests-and-art-basel-paris-closure.jpg",
-      "caption": "Alicja Kwade, L’Élévation des Mondes (2026), outside the Grand Palais. Courtesy Art Basel / Ocula.",
-      "captionHe": "אליציה קוואדה, L’Élévation des Mondes ‏(2026), מחוץ לגראן פאלה. באדיבות Art Basel / Ocula.",
+      "cover": "",
+      "caption": "Alicja Kwade, L’Élévation des Mondes (2026). Image from the artist’s Instagram.",
+      "captionHe": "אליציה קוואדה, L’Élévation des Mondes ‏(2026). תמונה מתוך האינסטגרם של האמנית.",
       "paragraphs": [
         "A few days ago, while browsing Ocula, I came across a photograph of an extraordinary sculpture. Ten polished stone spheres, stacked one above another, forming a seemingly unstable tower, 4.4 metres high.",
         "The sculpture, L’Élévation des Mondes (2026), was installed outside the Grand Palais during Art Basel Paris. It immediately caught my attention, and I became curious about the artist behind it.",
@@ -64,11 +64,12 @@
           "url": "https://www.alicjakwade.com/"
         },
         {
-          "label": "Alicja Kwade — Instagram post",
-          "labelHe": "אליציה קוואדה — פוסט באינסטגרם",
-          "url": "https://www.instagram.com/p/DQH5s8WjBvA/"
+          "label": "Alicja Kwade — Instagram",
+          "labelHe": "אליציה קוואדה — אינסטגרם",
+          "url": "https://www.instagram.com/p/DewR1L9DWGC/"
         }
-      ]
+      ],
+      "instagramEmbed": "https://www.instagram.com/p/DewR1L9DWGC/embed/captioned/"
     }
   ],
   "digitalProject": {
