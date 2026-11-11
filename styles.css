@@ -155,3 +155,7 @@ html[dir="rtl"] .journal-article .journal-links{align-items:flex-start!important
 .artwork-category-banner>p{padding:0 26px 16px;font-size:13px}
 .artwork-categories{gap:28px}
 @media(max-width:700px){.artwork-category-banner{width:100%;height:180px;min-height:180px}}
+
+/* Uniform gallery banners, including consistent stretched image proportions */
+.artwork-categories .artwork-category-banner{box-sizing:border-box;width:50%;height:220px;min-height:220px;max-height:220px;flex:0 0 220px;background-size:100% 100%;background-repeat:no-repeat;background-position:center}
+@media(max-width:700px){.artwork-categories .artwork-category-banner{width:100%;height:180px;min-height:180px;max-height:180px;flex-basis:180px}}
