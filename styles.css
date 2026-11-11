@@ -175,3 +175,7 @@ html[dir="rtl"] .artwork-categories > section.artwork-category-banner{align-self
 .artwork-categories > section.artwork-category-banner{box-sizing:border-box!important;align-self:stretch!important;width:100%!important;height:170px!important;min-height:170px!important;max-height:170px!important;flex:0 0 170px!important;margin:0!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
 html[dir="rtl"] .artwork-categories > section.artwork-category-banner{align-self:stretch!important}
 @media(max-width:700px){.artwork-categories{gap:36px!important}.artwork-categories > section.artwork-category-banner{height:145px!important;min-height:145px!important;max-height:145px!important;flex-basis:145px!important}.artwork-category-banner .artwork-category-overlay{padding:12px 18px}.artwork-category-banner>p{padding:0 18px 10px}}
+
+/* Soft, washed-out artwork banners without changing source images */
+.artwork-categories > section.artwork-category-banner{background-image:linear-gradient(rgba(255,255,255,.28),rgba(255,255,255,.28)),var(--series-banner)!important}
+.artwork-categories > section.artwork-category-banner .artwork-category-overlay,.artwork-categories > section.artwork-category-banner>p{position:relative;z-index:1;text-shadow:0 1px 5px rgba(0,0,0,.55)}
