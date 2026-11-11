@@ -159,3 +159,7 @@ html[dir="rtl"] .journal-article .journal-links{align-items:flex-start!important
 /* Uniform gallery banners, including consistent stretched image proportions */
 .artwork-categories .artwork-category-banner{box-sizing:border-box;width:50%;height:220px;min-height:220px;max-height:220px;flex:0 0 220px;background-size:100% 100%;background-repeat:no-repeat;background-position:center}
 @media(max-width:700px){.artwork-categories .artwork-category-banner{width:100%;height:180px;min-height:180px;max-height:180px;flex-basis:180px}}
+
+/* Align gallery banners with reading direction */
+.artwork-categories .artwork-category-banner{margin-left:0;margin-right:auto}
+[dir="rtl"] .artwork-categories .artwork-category-banner{margin-left:auto;margin-right:0}
