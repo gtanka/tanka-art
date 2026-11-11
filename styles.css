@@ -169,3 +169,9 @@ html[dir="rtl"] .journal-article .journal-links{align-items:flex-start!important
 .artwork-categories > section.artwork-category-banner{display:flex!important;box-sizing:border-box!important;width:50%!important;height:220px!important;min-height:220px!important;max-height:220px!important;flex:0 0 220px!important;align-self:flex-start!important;margin:0!important;padding:0!important;background-size:100% 100%,100% 100%!important}
 html[dir="rtl"] .artwork-categories > section.artwork-category-banner{align-self:flex-end!important}
 @media(max-width:700px){.artwork-categories > section.artwork-category-banner{width:100%!important;height:180px!important;min-height:180px!important;max-height:180px!important;flex-basis:180px!important}}
+
+/* Artworks overview: full-width slim banners, natural image aspect ratio (crop, never stretch) */
+.artwork-categories{gap:56px!important}
+.artwork-categories > section.artwork-category-banner{box-sizing:border-box!important;align-self:stretch!important;width:100%!important;height:170px!important;min-height:170px!important;max-height:170px!important;flex:0 0 170px!important;margin:0!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+html[dir="rtl"] .artwork-categories > section.artwork-category-banner{align-self:stretch!important}
+@media(max-width:700px){.artwork-categories{gap:36px!important}.artwork-categories > section.artwork-category-banner{height:145px!important;min-height:145px!important;max-height:145px!important;flex-basis:145px!important}.artwork-category-banner .artwork-category-overlay{padding:12px 18px}.artwork-category-banner>p{padding:0 18px 10px}}
