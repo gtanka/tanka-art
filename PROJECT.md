@@ -26,3 +26,10 @@ Updated 2026-10-28. Site is fully static HTML, deployed from GitHub main to Clou
 - Add new public URLs to sitemap.xml, preserving English/Hebrew counterparts.
 - Keep metadata, canonical, alternate hreflang, and accessibility consistent.
 - Do not commit secrets. Preserve image assets and layout.
+
+## Artwork gallery update (2026-11-11)
+- Each artwork series has a static HTML image grid in English and Hebrew; images are explicitly listed from `images/artworks/<series>/` in the page HTML (no runtime directory fetching).
+- Square thumbnails use CSS `object-fit: cover`; lightbox shows complete original image with `object-fit: contain`, and supports previous/next/Escape.
+- `cycles` image folder maps to existing `/artworks/project-1` route and its Hebrew counterpart. Do not change the route without updating links and sitemap.
+- `new-works` image folder currently contains no JPEGs, so its pages remain placeholders until images are uploaded.
+- When adding new images later, regenerate the HTML lists in both languages; static hosting does not automatically enumerate folders.
