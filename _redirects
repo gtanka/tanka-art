@@ -1,2 +1,4 @@
 # Individual pages are published as real HTML files.
 # Do not rewrite their URLs to category indexes.
+/artworks/project-1 /artworks/cycles 301
+/he/artworks/project-1 /he/artworks/cycles 301
