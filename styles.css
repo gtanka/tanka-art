@@ -217,3 +217,7 @@ html[dir="rtl"] .artwork-series-row{direction:rtl}
 .detail-stacked .detail-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
 .detail-stacked .detail-gallery img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center;max-height:none;cursor:zoom-in;background:#f7f7f5}
 @media(max-width:650px){.detail-stacked .detail-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+
+/* Jewelry description above the photo grid */
+.jewelry-detail-description{max-width:720px;margin:22px 0 30px;color:#555;font-size:15px;line-height:1.8}
+.jewelry-detail-description p{margin:0 0 12px}
