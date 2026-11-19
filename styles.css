@@ -205,3 +205,8 @@ html[dir="rtl"] .artwork-series-row{direction:rtl}
 .artwork-series-stack .artwork-series-strip{display:block;width:100%;height:clamp(80px,12vw,155px);overflow:hidden}
 .artwork-series-strip img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 @media(max-width:600px){.artwork-series-stack .artwork-series-strip{height:80px}.artwork-series-stack .artwork-series-copy{margin-bottom:14px}.artwork-series-stack h2{font-size:22px;margin-bottom:12px}.artwork-series-stack p{font-size:13px;margin-top:12px}}
+
+/* Jewelry cards: uniform image frames without distortion */
+.jewelry-product-grid .card-image{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#f7f7f5}
+.jewelry-product-grid .card-image img,.jewelry-product-grid .card-image .static-card-image{display:block;width:100%;height:100%;object-fit:contain}
+.jewelry-product-grid .card h2{margin-top:14px}
