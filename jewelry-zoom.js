@@ -5,15 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const img = box.querySelector('img');
   const controls = document.createElement('div');
   controls.className = 'jewelry-zoom-controls';
-  controls.innerHTML = '<button type="button" class="jewelry-zoom-out" aria-label="Zoom out">−</button><span class="jewelry-zoom-level">100%</span><button type="button" class="jewelry-zoom-in" aria-label="Zoom in">+</button><button type="button" class="jewelry-zoom-reset" aria-label="Reset zoom">Reset</button>';
+  controls.innerHTML = '<button type="button" class="jewelry-zoom-toggle" aria-label="Magnify image" title="Magnify image">⌕</button>';
   box.append(controls);
   let scale = 1, x = 0, y = 0, start = null, pinch = null;
   const pointers = new Map();
-  const level = controls.querySelector('.jewelry-zoom-level');
+  const toggle = controls.querySelector('.jewelry-zoom-toggle');
   function render() {
     img.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + scale + ')';
     img.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
-    level.textContent = Math.round(scale * 100) + '%';
+    toggle.textContent = scale > 1 ? '↺' : '⌕';
+    toggle.setAttribute('aria-label', scale > 1 ? 'Reset zoom' : 'Magnify image');
+    toggle.title = scale > 1 ? 'Reset zoom' : 'Magnify image';
   }
   function reset() { scale = 1; x = 0; y = 0; pointers.clear(); start = null; pinch = null; render(); }
   function zoom(next) {
@@ -21,9 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (scale === 1) { x = 0; y = 0; }
     render();
   }
-  controls.querySelector('.jewelry-zoom-in').addEventListener('click', () => zoom(scale * 1.5));
-  controls.querySelector('.jewelry-zoom-out').addEventListener('click', () => zoom(scale / 1.5));
-  controls.querySelector('.jewelry-zoom-reset').addEventListener('click', reset);
+  toggle.addEventListener('click', () => scale > 1 ? reset() : zoom(2.5));
   img.addEventListener('dblclick', e => { e.preventDefault(); zoom(scale > 1 ? 1 : 2.5); });
   img.addEventListener('wheel', e => {
     if (box.hidden) return;
