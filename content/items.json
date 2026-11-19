@@ -4,10 +4,6 @@
       "slug": "Pearls necklace shells",
       "title": "Pearls Necklace Shells",
       "images": [
-        "images/jewelry/Pearls necklace shells/Hold.jpg",
-        "images/jewelry/Pearls necklace shells/Model.jpg",
-        "images/jewelry/Pearls necklace shells/Onpack.jpg",
-        "images/jewelry/Pearls necklace shells/Pic.jpg",
         "images/jewelry/Pearls necklace shells/set.jpg"
       ]
     },
@@ -15,10 +11,6 @@
       "slug": "Pearls necklace small",
       "title": "Pearls Necklace Small",
       "images": [
-        "images/jewelry/Pearls necklace small/Hold.jpg",
-        "images/jewelry/Pearls necklace small/Model.jpg",
-        "images/jewelry/Pearls necklace small/Onpack.jpg",
-        "images/jewelry/Pearls necklace small/Pic.jpg",
         "images/jewelry/Pearls necklace small/set.jpg"
       ]
     },
@@ -26,11 +18,17 @@
       "slug": "Quartz silver bracelet",
       "title": "Quartz Silver Bracelet",
       "images": [
-        "images/jewelry/Quartz silver bracelet/Hold.jpg",
-        "images/jewelry/Quartz silver bracelet/Model.jpg",
-        "images/jewelry/Quartz silver bracelet/Onpack.jpg",
-        "images/jewelry/Quartz silver bracelet/Pic.jpg",
         "images/jewelry/Quartz silver bracelet/set.jpg"
+      ]
+    },
+    {
+      "slug": "mother-of-pearl-necklace",
+      "title": "Mother Of Pearl Necklace",
+      "images": [
+        "images/jewelry/mother-of-pearl-necklace/Hold.jpg",
+        "images/jewelry/mother-of-pearl-necklace/Model.jpg",
+        "images/jewelry/mother-of-pearl-necklace/Onpack.jpg",
+        "images/jewelry/mother-of-pearl-necklace/Pic.jpg"
       ]
     },
     {
@@ -51,6 +49,26 @@
       "description": "Handcrafted necklace featuring tiny natural freshwater rice pearls, approximately 2–3 mm in length.\n\nMade with sterling silver (925) and high-quality 1/20 gold-filled components on a hypoallergenic base, sourced from a reputable, established manufacturer.\n\nCarefully assembled by hand in Tel Aviv.\n\nThe necklace features an attached 7 cm sterling silver extender chain, allowing you to adjust the length.",
       "descriptionHe": "שרשרת בעבודת יד, עשויה פניני אורז טבעיות וקטנטנות ממים מתוקים, באורך של כ־2–3 מ״מ.\n\nבשילוב כסף סטרלינג (925) ורכיבי גולדפילד איכותיים 1/20 על בסיס היפואלרגני, מתוצרת יצרן מוכר ובעל מוניטין.\n\nהשרשרת הורכבה בקפידה בעבודת יד בתל אביב.\n\nלשרשרת מחוברת שרשרת הארכה מכסף סטרלינג באורך 7 ס״מ, המאפשרת להתאים את האורך.",
       "etsyUrl": ""
+    },
+    {
+      "slug": "quartz-silver-bracelet",
+      "title": "Quartz Silver Bracelet",
+      "images": [
+        "images/jewelry/quartz-silver-bracelet/Hold.jpg",
+        "images/jewelry/quartz-silver-bracelet/Model.jpg",
+        "images/jewelry/quartz-silver-bracelet/Onpack.jpg",
+        "images/jewelry/quartz-silver-bracelet/Pic.jpg"
+      ]
+    },
+    {
+      "slug": "small-pearl-necklace",
+      "title": "Small Pearl Necklace",
+      "images": [
+        "images/jewelry/small-pearl-necklace/Hold.jpg",
+        "images/jewelry/small-pearl-necklace/Model.jpg",
+        "images/jewelry/small-pearl-necklace/Onpack.jpg",
+        "images/jewelry/small-pearl-necklace/Pic.jpg"
+      ]
     }
   ],
   "artworks": [],
