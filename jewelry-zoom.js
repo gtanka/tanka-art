@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const box = document.querySelector('.lightbox');
   if (!box || !document.querySelector('.detail-gallery')) return;
   const img = box.querySelector('img');
+  img.draggable = false;
+  img.style.touchAction = 'none';
+  img.addEventListener('dragstart', e => e.preventDefault());
+  box.addEventListener('touchmove', e => { if (!box.hidden && e.target === img) e.preventDefault(); }, { passive: false });
   const controls = document.createElement('div');
   controls.className = 'jewelry-zoom-controls';
   controls.innerHTML = '<button type="button" class="jewelry-zoom-toggle" aria-label="Magnify image" title="Magnify image">⌕</button>';
@@ -32,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { passive: false });
   img.addEventListener('pointerdown', e => {
     if (box.hidden) return;
+    e.preventDefault();
     pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     img.setPointerCapture(e.pointerId);
     if (pointers.size === 1) start = { x: e.clientX, y: e.clientY, tx: x, ty: y };
@@ -43,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   img.addEventListener('pointermove', e => {
     if (!pointers.has(e.pointerId)) return;
+    e.preventDefault();
     pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (pointers.size === 2 && pinch) {
       const p = [...pointers.values()];
@@ -56,7 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function end(e) { pointers.delete(e.pointerId); start = null; pinch = null; }
   img.addEventListener('pointerup', end);
   img.addEventListener('pointercancel', end);
-  img.addEventListener('click', () => { if (scale === 1) zoom(2); });
+  let dragged = false;
+  img.addEventListener('pointermove', e => { if (pointers.has(e.pointerId) && start && Math.hypot(e.clientX-start.x,e.clientY-start.y)>8) dragged=true; });
+  img.addEventListener('click', e => { if (dragged) { e.preventDefault(); dragged=false; return; } if (scale === 1) zoom(2); });
   box.querySelectorAll('.lightbox-prev,.lightbox-next,.lightbox-close').forEach(b => b.addEventListener('click', reset));
   new MutationObserver(() => { if (!box.hidden) reset(); }).observe(img, { attributes: true, attributeFilter: ['src'] });
   render();
