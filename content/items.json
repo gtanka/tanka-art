@@ -1,6 +1,17 @@
 {
   "jewelry": [
     {
+      "slug": "Pearls necklace shells",
+      "title": "Pearls Necklace Shells",
+      "images": [
+        "images/jewelry/Pearls necklace shells/Hold.jpg",
+        "images/jewelry/Pearls necklace shells/Model.jpg",
+        "images/jewelry/Pearls necklace shells/On pack.jpg",
+        "images/jewelry/Pearls necklace shells/Pic.jpg",
+        "images/jewelry/Pearls necklace shells/Set.jpg"
+      ]
+    },
+    {
       "slug": "pearl-necklace-001",
       "title": "Freshwater Pearl Necklace",
       "images": [
