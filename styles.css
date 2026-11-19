@@ -221,3 +221,12 @@ html[dir="rtl"] .artwork-series-row{direction:rtl}
 /* Jewelry description above the photo grid */
 .jewelry-detail-description{max-width:720px;margin:22px 0 30px;color:#555;font-size:15px;line-height:1.8}
 .jewelry-detail-description p{margin:0 0 12px}
+
+/* Consistent artwork-gallery typography across the site */
+main{font-family:"Nunito Sans",Arial,Helvetica,sans-serif}
+main h1{font-size:clamp(38px,6vw,76px);font-weight:400;line-height:1.12}
+main h2{font-weight:400;line-height:1.3}
+main .prose,main .detail-copy,main .jewelry-detail-description,main .intro{font-size:clamp(19px,1.65vw,23px);line-height:1.6}
+main .jewelry-product-grid .card h2{font-size:clamp(19px,1.65vw,23px);line-height:1.4}
+main .jewelry-product-grid .card p{font-size:clamp(13px,1.4vw,17px);line-height:1.55;color:#777}
+main .jewelry-detail-description{max-width:900px}
