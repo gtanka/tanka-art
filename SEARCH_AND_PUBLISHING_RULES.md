@@ -6,7 +6,7 @@ Keep Tanka Art discoverable through traditional search engines, image search, Pi
 
 ## Source of truth
 - Read PROJECT.md before modifying the site. The live site is static HTML, not content JSON.
-- CONTENT_GUIDE.md describes an older JSON-driven prototype and must not override PROJECT.md or the actual HTML.
+- The guide in tmp/CONTENT_GUIDE.md documents the archived JSON-driven prototype.
 - Inspect current files before changes; never assume old route lists or product counts are accurate.
 - As of 2026-11-19 there are three jewelry products: two necklaces and one bracelet. Do not invent additional products.
 

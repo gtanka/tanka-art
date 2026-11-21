@@ -2,3 +2,5 @@
 # Do not rewrite their URLs to category indexes.
 /artworks/project-1 /artworks/cycles 301
 /he/artworks/project-1 /he/artworks/cycles 301
+/jewelry/pearl-necklace-001 /jewelry/small-pearl-necklace 301
+/he/jewelry/pearl-necklace-001 /he/jewelry/small-pearl-necklace 301
